@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BECDB906-9007-4F5C-EAB3-BBB26FCC2F93" containerWithKeyObject="8F9C2CD9-47E3-4798-FD96-2C6FE46931D2" localFKIndex="6F47CB40-F86B-5D6B-4B4B-EFAC78D95DDB" name="Pjesma_Album_FK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>70998199-9357-B308-8662-BCE2D8056C86</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>Album</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D143196-0B0A-113D-4299-55F9FD4323D5</referredTableID>
+<keyObject>5ACEB8B3-E247-0616-37CC-C2AB749C9C72</keyObject>
+<referredKeyID>5ACEB8B3-E247-0616-37CC-C2AB749C9C72</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>album_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

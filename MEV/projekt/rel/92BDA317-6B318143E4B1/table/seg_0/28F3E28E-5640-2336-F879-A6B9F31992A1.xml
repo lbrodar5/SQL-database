@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28F3E28E-5640-2336-F879-A6B9F31992A1" name="Korisnik">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>49A57044-6E2B-29A3-8627-550B6419E39E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="korisnik_id" id="68723265-492F-871C-82CB-5B903CB6E923">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>683EB576-6BB4-3150-D26D-79B51EFD0B4C</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="korisnicko_ime" id="C17923F8-FB5F-C771-20DA-2B9C4A8EB939">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>5D65F9D2-0623-8526-45D9-45BC2B8A1E42</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="650747B2-B5B7-E3E7-AB44-8693FC03B5CA" name="Korisnik_PK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>97D0C239-C16A-ED6C-9707-35F79016425A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68723265-492F-871C-82CB-5B903CB6E923"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

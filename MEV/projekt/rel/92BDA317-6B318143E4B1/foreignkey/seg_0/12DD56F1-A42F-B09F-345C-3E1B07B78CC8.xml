@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12DD56F1-A42F-B09F-345C-3E1B07B78CC8" containerWithKeyObject="9D143196-0B0A-113D-4299-55F9FD4323D5" localFKIndex="F1399DE2-E74B-4965-B75A-81F5B13133A4" name="Album_Glazbenik_FK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>01B24841-BDCF-5382-DE71-8E10ED1D901E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>Glazbenik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02AD43FA-7835-6235-D427-697612B062A9</referredTableID>
+<keyObject>A4362B73-3443-D732-B8AE-958D510088B9</keyObject>
+<referredKeyID>A4362B73-3443-D732-B8AE-958D510088B9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>glazbenik_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

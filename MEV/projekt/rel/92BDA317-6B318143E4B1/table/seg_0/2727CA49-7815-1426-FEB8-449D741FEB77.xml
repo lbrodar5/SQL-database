@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2727CA49-7815-1426-FEB8-449D741FEB77" name="Relation_17">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-14 16:45:08 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pjesma_pjesma_id" id="F9F960C2-F8BD-D16C-60B5-B0360680B03C">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-14 16:45:08 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA4F635A-9BF6-7AD9-DE14-3151DC39E523" referredColumn="A84A3AB3-8317-BD3B-51A1-8E0DEE869005"/>
+</associations>
+</Column>
+<Column name="Playlist_playlist_id" id="DF2F166E-8A1D-9E96-3D8B-B2CE06B6B2E8">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-14 16:45:08 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CBDEE49-EAD0-AB4B-9775-0D287C99762A" referredColumn="73B6307C-D2F4-7CD4-F275-02C434C2B3D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7DFB1D7-7239-0518-F754-2C7681C77FE5" name="Relation_17_PK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-14 16:45:08 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9F960C2-F8BD-D16C-60B5-B0360680B03C"/>
+<colUsage columnID="DF2F166E-8A1D-9E96-3D8B-B2CE06B6B2E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5FB2F9D-B4AD-B9B5-95FB-6B2A01AF6E31" name="Relation_17_Pjesma_FK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-14 16:45:08 UTC</createdTime>
+<generatorID>B1054118-9ADD-A4F5-1056-D4B74C2473A8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9F960C2-F8BD-D16C-60B5-B0360680B03C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBCA1626-0ED4-DE79-D936-54CD446BA042" name="Relation_17_Playlist_FK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-14 16:45:08 UTC</createdTime>
+<generatorID>B1054118-9ADD-A4F5-1056-D4B74C2473A8</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF2F166E-8A1D-9E96-3D8B-B2CE06B6B2E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

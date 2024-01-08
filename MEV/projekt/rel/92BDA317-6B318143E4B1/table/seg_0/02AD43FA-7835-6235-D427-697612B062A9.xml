@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02AD43FA-7835-6235-D427-697612B062A9" name="Glazbenik">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>5071A201-A791-CA26-1969-49724FB31ABF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="glazbenik_id" id="A2743A2F-551E-1B87-8B71-B8F731544CFA">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>83CAA8C2-7E5E-9E25-2330-A202555D6DBF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_gazbenika" id="E917978F-824E-4BD4-41DD-B0783024759B">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>4868EF8C-2AAA-2A23-197F-1214EAE28EC9</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_rođenja" id="12600653-B8C6-F259-74BE-BC496076C2A2">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>690ED22E-9C3D-0A00-E804-AFD59AAD6D7E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4362B73-3443-D732-B8AE-958D510088B9" name="Glazbenik_PK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>E32BC675-22DF-9232-BB82-F35F27E38537</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2743A2F-551E-1B87-8B71-B8F731544CFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

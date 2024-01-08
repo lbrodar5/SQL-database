@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A5A4163-C87F-3ED8-B19F-B21511044953" name="Playlist">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>4BD181F8-D4AD-23F4-4870-E2079E8B859D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="playlist_id" id="73B6307C-D2F4-7CD4-F275-02C434C2B3D7">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>DEAF804C-22A9-8F8F-C857-472B5503D20C</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_playlista" id="61F5925E-A8F8-C8F6-F32B-353220DF987D">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>AC726192-8FCF-91A0-D08D-5594404EBBC7</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_korisnik_id" id="F379E403-9559-FFAB-7E78-CD0CC3568617">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>16CF8898-4D63-9E74-143D-DB7D6A4865A0</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46B03099-0E96-B4EE-01D6-33B71DA1EA8F" referredColumn="68723265-492F-871C-82CB-5B903CB6E923"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="901A9AFA-4AAE-16C3-3176-C29E194D6AF2" name="Playlist_PK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>CA9B6163-006A-177D-C558-1A2132FD9275</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73B6307C-D2F4-7CD4-F275-02C434C2B3D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4881028-45AA-A440-59DD-8BD984A46996" name="Playlist_Korisnik_FK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>2FA6D5C5-E41D-8675-8C6A-14B0F99574C9</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F379E403-9559-FFAB-7E78-CD0CC3568617"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

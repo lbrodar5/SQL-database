@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F9C2CD9-47E3-4798-FD96-2C6FE46931D2" name="Pjesma">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>039949B6-F873-882E-247D-E20758D98DFC</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pjesma_id" id="A84A3AB3-8317-BD3B-51A1-8E0DEE869005">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>02E20C9F-6ACF-38DD-AC88-F32E66804FEB</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="DEC92690-0C8C-5803-E3BE-B7FF1D85E079">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>E280C03A-BD01-AB08-3120-F92F25EBE68A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_objave" id="AEC00FC8-20EC-A434-77F9-289C0E766D75">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>A3613AA4-26F7-358B-3E80-F6E118A9A040</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Album_album_id" id="520D56FD-61E2-7D13-0B14-A891A1ED2DB0">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>62BF90E9-44D1-BC46-CE1D-E554AC430706</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BECDB906-9007-4F5C-EAB3-BBB26FCC2F93" referredColumn="E13C6C3D-A7A8-5161-0714-2B02710039DF"/>
+</associations>
+</Column>
+<Column name="Žanr_žanr_id" id="1E9E9A1F-3A47-C101-1C01-799058812900">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>60A5DFD6-F6F8-02B8-36FB-7B7EF11AD9EB</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D9F4BF3-981E-E061-DDAF-82FED4B4CD31" referredColumn="E45550C8-BD22-8C10-250B-C8BEA0CD6A20"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85E60179-E304-C612-6396-080C3D5AC773" name="Pjesma_PK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>66868104-F1C2-82DC-D186-7668576029F0</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A84A3AB3-8317-BD3B-51A1-8E0DEE869005"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDF461DA-CB09-129C-875A-6641C2A7F1AB" name="Pjesma_Žanr_FK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>B209131C-9FC8-4F03-C063-8E5E675A8793</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E9E9A1F-3A47-C101-1C01-799058812900"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F47CB40-F86B-5D6B-4B4B-EFAC78D95DDB" name="Pjesma_Album_FK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>70998199-9357-B308-8662-BCE2D8056C86</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="520D56FD-61E2-7D13-0B14-A891A1ED2DB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

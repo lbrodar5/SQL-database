@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="039949B6-F873-882E-247D-E20758D98DFC" name="Pjesma">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:10:16 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pjesma_id" id="02E20C9F-6ACF-38DD-AC88-F32E66804FEB">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:10:26 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="E280C03A-BD01-AB08-3120-F92F25EBE68A">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:10:32 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_objave" id="A3613AA4-26F7-358B-3E80-F6E118A9A040">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:10:43 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="album_id1" id="62BF90E9-44D1-BC46-CE1D-E554AC430706">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:11:48 UTC</createdTime>
+<generatorID>70998199-9357-B308-8662-BCE2D8056C86</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="true"/>
+</engineerTo>
+<referedAttribute>7D23B9CB-35F0-75A6-DAEA-AE1D70E3D36C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="žanr_id" id="60A5DFD6-F6F8-02B8-36FB-7B7EF11AD9EB">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:46:36 UTC</createdTime>
+<generatorID>B209131C-9FC8-4F03-C063-8E5E675A8793</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="true"/>
+</engineerTo>
+<referedAttribute>170119D3-E1A7-9FDB-7BDB-E83A1BC91D61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66868104-F1C2-82DC-D186-7668576029F0" name="Pjesma PK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:10:38 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02E20C9F-6ACF-38DD-AC88-F32E66804FEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

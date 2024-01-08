@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29C15D0A-7142-0086-7038-6D89EDBCB196" name="Relation_11">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Glazbenik_glazbenik_id" id="9CC45F9E-63E4-8324-D402-0A99E2DE1AB4">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29BC8BB3-7D23-08A1-9E21-C5F860EF5E28" referredColumn="A2743A2F-551E-1B87-8B71-B8F731544CFA"/>
+</associations>
+</Column>
+<Column name="Pjesma_pjesma_id" id="8E03A38C-92E5-65E1-B133-4BE3B66D029A">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10953EDB-CA7B-5FD2-BA58-F7722C216C0C" referredColumn="A84A3AB3-8317-BD3B-51A1-8E0DEE869005"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C67A304D-89BE-B6FB-5A42-D2F8FD46D94F" name="Relation_11_PK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CC45F9E-63E4-8324-D402-0A99E2DE1AB4"/>
+<colUsage columnID="8E03A38C-92E5-65E1-B133-4BE3B66D029A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB051B87-7818-0A7F-EA59-113B3AF1F015" name="Relation_11_Glazbenik_FK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>F68B98F1-20E3-5881-5F6F-246557543B55</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CC45F9E-63E4-8324-D402-0A99E2DE1AB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A62A8C3-C4C6-92CE-D111-08B9F1FA21F4" name="Relation_11_Pjesma_FK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>F68B98F1-20E3-5881-5F6F-246557543B55</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E03A38C-92E5-65E1-B133-4BE3B66D029A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

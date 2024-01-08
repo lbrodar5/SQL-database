@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BD181F8-D4AD-23F4-4870-E2079E8B859D" name="Playlist">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:38:19 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="playlist_id" id="DEAF804C-22A9-8F8F-C857-472B5503D20C">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:38:29 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_playlista" id="AC726192-8FCF-91A0-D08D-5594404EBBC7">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:38:35 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="korisnik_id" id="16CF8898-4D63-9E74-143D-DB7D6A4865A0">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:39:00 UTC</createdTime>
+<generatorID>2FA6D5C5-E41D-8675-8C6A-14B0F99574C9</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>683EB576-6BB4-3150-D26D-79B51EFD0B4C</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA9B6163-006A-177D-C558-1A2132FD9275" name="Playlist PK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:42:31 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="92BDA317-2521-284C-EFAE-6B318143E4B1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DEAF804C-22A9-8F8F-C857-472B5503D20C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10953EDB-CA7B-5FD2-BA58-F7722C216C0C" containerWithKeyObject="29C15D0A-7142-0086-7038-6D89EDBCB196" localFKIndex="3A62A8C3-C4C6-92CE-D111-08B9F1FA21F4" name="Relation_11_Pjesma_FK">
+<createdBy>Leopold</createdBy>
+<createdTime>2023-06-08 23:56:38 UTC</createdTime>
+<generatorID>F68B98F1-20E3-5881-5F6F-246557543B55</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>Pjesma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F9C2CD9-47E3-4798-FD96-2C6FE46931D2</referredTableID>
+<keyObject>85E60179-E304-C612-6396-080C3D5AC773</keyObject>
+<referredKeyID>85E60179-E304-C612-6396-080C3D5AC773</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pjesma_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
